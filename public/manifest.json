@@ -1,0 +1,25 @@
+{
+  "short_name": "DeveloperFolio",
+  "name": "DeveloperFolio",
+"icons": [
+  {
+    "src": "/assets/images/avatar.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  },
+  {
+    "src": "/assets/images/avatar.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+  {
+    "src": "/assets/images/avatar.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#6c63ff",
+  "background_color": "#ffffff"
+}
