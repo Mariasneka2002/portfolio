@@ -1,12 +1,15 @@
 import React from "react";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.scss";
 import Main from "./containers/Main";
 
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" component={Main} />
+      </Switch>
+    </Router>
   );
 }
 

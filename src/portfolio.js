@@ -154,23 +154,23 @@ const bigProjects = {
       footerLink: [
         { name: "View Project", url: "https://github.com/Mariasneka2002" }
       ]
-    },
-    {
-      image: require("./assets/images/portfolio.png"),
-      projectName: "Portfolio Website",
-      projectDesc: "Personal portfolio built with React.js and hosted on GitHub Pages",
-      footerLink: [
-        { name: "View Project", url: "https://github.com/Mariasneka2002" }
-      ]
-    },
-    {
-      image: require("./assets/images/AI_Chat_bot.png"),
-      projectName: "AI Chat Bot",
-      projectDesc: "Personal AI Chat BOt built with Python and hosted on GitHub Pages",
-      footerLink: [
-        { name: "View Project", url: "https://github.com/Mariasneka2002" }
-      ]
     }
+    // {
+    //   image: require("./assets/images/portfolio.png"),
+    //   projectName: "Portfolio Website",
+    //   projectDesc: "Personal portfolio built with React.js and hosted on GitHub Pages",
+    //   footerLink: [
+    //     { name: "View Project", url: "https://github.com/Mariasneka2002" }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/AI_Chat_bot.png"),
+    //   projectName: "AI Chat Bot",
+    //   projectDesc: "Personal AI Chat BOt built with Python and hosted on GitHub Pages",
+    //   footerLink: [
+    //     { name: "View Project", url: "https://github.com/Mariasneka2002" }
+    //   ]
+    // }
   ],
   display: true
 };
@@ -180,13 +180,13 @@ const achievementSection = {
   title: emoji("Achievements 🏆"),
   subtitle: "Certifications and Awards",
   achievementsCards: [
-    {
-      title: "Java Certification",
-      subtitle: "Certified in Java Programming",
-      image: require("./assets/images/certificate.jpeg"),
-      imageAlt: "Java Logo",
-      footerLink: []
-    },
+    // {
+    //   title: "Java Certification",
+    //   subtitle: "Certified in Java Programming",
+    //   image: require("./assets/images/certificate.jpeg"),
+    //   imageAlt: "Java Logo",
+    //   footerLink: []
+    // },
     {
       title: "Java Certification",
       subtitle: "Certified in Java Programming",
@@ -210,7 +210,7 @@ const blogSection = {
       description: "A blog explaining why React dominates frontend development."
     }
   ],
-  display: true
+  display: false
 };
 
 // Talks Section
@@ -241,7 +241,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just say hi!",
   // number: "+91-7539965838",
-  email_address: "snekamariadas@gmail.com"
+  email_address: "mariasneka2002@gmail.com"
 };
 
 // Twitter Section
